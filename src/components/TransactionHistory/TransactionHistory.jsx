@@ -32,8 +32,9 @@ TransactionHistory.propTypes = {
       amount: PropTypes.string.isRequired,
       type: PropTypes.string.isRequired,
       currency: PropTypes.string.isRequired,
+      id: PropTypes.string.isRequired,
     })
-  ),
+  ).isRequired,
 };
 
 TransactionHistory.defaultProps = {
